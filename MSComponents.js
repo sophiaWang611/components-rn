@@ -28,7 +28,10 @@ const MSComponents = {
     get MSSwiper() { return require('MSSwiperView'); },
     get MSSwitch() { return require('MSSwitchView'); },
     get MSTextArea() { return require('MSTextAreaView'); },
-    get MSWebView() { return require('MSWebView'); }
+    get MSWebView() { return require('MSWebView'); },
+    get MSImageCrop() {return require('MSImageCrop')},
+    get MSToast() {return require('MSToast')},
+    get MSLocationService() {return require('MSLocationService')}
 };
 
 module.exports = MSComponents;

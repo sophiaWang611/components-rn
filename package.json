@@ -16,6 +16,7 @@
     "react-native-tableview": "^1.4.1",
     "react-tween-state": "^0.1.5",
     "react-native-tableview": "^1.4.1",
+    "react-native-toast": "git://github.com/sophiaWang611/react-native-toast#0b7a3a43b7e60e819371e524727848f056e8c351",
     "react-native-scrollable-tab-view": "^0.3.7",
     "react-native-modal": "^0.4.0"
   },

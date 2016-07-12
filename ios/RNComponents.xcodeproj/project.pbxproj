@@ -20,6 +20,7 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		90AF5A3D3BF5CC8390C1FD0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FF1923092ED0DCD24B887 /* libPods.a */; };
+		EC13647D1D34CE2D001912E4 /* MSLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC13647C1D34CE2D001912E4 /* MSLocationService.m */; };
 		EC37A1DC1D334D490032D738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1881D334D490032D738 /* AppDelegate.m */; };
 		EC37A1DD1D334D490032D738 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC37A1891D334D490032D738 /* LaunchScreen.xib */; };
 		EC37A1DE1D334D490032D738 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC37A18B1D334D490032D738 /* Images.xcassets */; };
@@ -181,6 +182,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		C11859F2D5B8E52523DA8195 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EC13647B1D34CE2D001912E4 /* MSLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLocationService.h; sourceTree = "<group>"; };
+		EC13647C1D34CE2D001912E4 /* MSLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLocationService.m; sourceTree = "<group>"; };
 		EC37A16E1D3347D00032D738 /* RNTableView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNTableView.xcodeproj; path = "../node_modules/react-native-tableview/RNTableView.xcodeproj"; sourceTree = "<group>"; };
 		EC37A1871D334D490032D738 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC37A1881D334D490032D738 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -463,6 +466,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EC13647A1D34CE2D001912E4 /* MSLocationService */ = {
+			isa = PBXGroup;
+			children = (
+				EC13647B1D34CE2D001912E4 /* MSLocationService.h */,
+				EC13647C1D34CE2D001912E4 /* MSLocationService.m */,
+			);
+			path = MSLocationService;
+			sourceTree = "<group>";
+		};
 		EC37A1531D3346A30032D738 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -495,6 +507,7 @@
 		EC37A1861D334D490032D738 /* RNComponents */ = {
 			isa = PBXGroup;
 			children = (
+				EC13647A1D34CE2D001912E4 /* MSLocationService */,
 				EC37A1871D334D490032D738 /* AppDelegate.h */,
 				EC37A1881D334D490032D738 /* AppDelegate.m */,
 				EC37A1891D334D490032D738 /* LaunchScreen.xib */,
@@ -971,6 +984,7 @@
 				EC37A1E11D334D490032D738 /* MSColor.m in Sources */,
 				EC37A1E21D334D490032D738 /* MSFont.m in Sources */,
 				EC37A1E51D334D490032D738 /* MSConfig.m in Sources */,
+				EC13647D1D34CE2D001912E4 /* MSLocationService.m in Sources */,
 				EC37A1EF1D334D490032D738 /* MSAdjustViewController.m in Sources */,
 				EC37A2011D334D490032D738 /* MSTableView.m in Sources */,
 				EC37A1E71D334D490032D738 /* MSHtmlTxtView.m in Sources */,
