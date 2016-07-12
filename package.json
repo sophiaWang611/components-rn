@@ -14,7 +14,10 @@
     "react": "15.2.1",
     "react-native": "^0.29.0",
     "react-native-tableview": "^1.4.1",
-    "react-tween-state": "^0.1.5"
+    "react-tween-state": "^0.1.5",
+    "react-native-tableview": "^1.4.1",
+    "react-native-scrollable-tab-view": "^0.3.7",
+    "react-native-modal": "^0.4.0",
   },
   "devDependencies": {
     "appium": "1.4.13",
