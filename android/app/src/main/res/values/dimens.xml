@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tab_height">52dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="activity_vertical_padding">20dp</dimen>
+
+    <!-- <dimen name="activity_vertical_margin">16dp</dimen> -->
+    <!-- <dimen name="activity_horizontal_margin">16dp</dimen> -->
+
+
+    <!-- <dimen name="layout_magrin_top">20dp</dimen> -->
+    <!-- <dimen name="layout_margin_horizon">11dp</dimen> -->
+
+    <dimen name="x_large_text_size">32sp</dimen>
+    <dimen name="ll_large_text_size">24sp</dimen>
+    <dimen name="l_large_text_size">20sp</dimen>
+    <dimen name="large_text_size">19sp</dimen>
+    <dimen name="x_normal_text_size">17sp</dimen>
+    <dimen name="l_small_text_size">14sp</dimen>
+    <dimen name="x_small_text_size">12sp</dimen>
+    <dimen name="xm_small_text_size">11sp</dimen>
+    <dimen name="xx_small_text_size">10sp</dimen>
+    <dimen name="xxx_small_text_size">9sp</dimen>
+    <dimen name="layout_hint_controller_vertial_margin">7dp</dimen> <!-- 提示文字和对应的空间组垂直间隔 -->
+
+    <dimen name="layout_ui_group_horizon_vertical_margin">27dp</dimen> <!-- ui 组之间的空格 ，如 Button和 From -->
+    <dimen name="layout_ui_group_inner_vertical_margin">13dp</dimen>
+    <dimen name="layout_ui_group_inner_vertical_margin_7dp">7dp</dimen>
+    <dimen name="layout_ui_group_inner_vertical_11dp">11dp</dimen>
+    <dimen name="layout_ui_group_inner_horizon_margin_7dp">7dp</dimen>
+    <dimen name="layout_ui_group_inner_horizon_margin_5dp">5dp</dimen>
+    <dimen name="layout_ui_group_height">90dp</dimen> <!-- ui 组之间的空格 ，如 Button和 From -->
+
+
+    <!-- 输入 form  的一些定义 -->
+    <dimen name="form_row_vertical_interval">20dp</dimen>
+    <dimen name="form_row_controller_padding">13dp</dimen> <!-- 一个 form row 内部 左右 的 padding -->
+    <dimen name="form_row_input_width">210dip</dimen>
+    <dimen name="form_detail_indicator_width">7dp</dimen>
+    <dimen name="form_detail_indicator_height">13dp</dimen>
+    <dimen name="form_row_title_width2">80dip</dimen>
+
+    <!-- button -->
+    <dimen name="x_big_button_height">49dp</dimen>
+    <dimen name="medium_button_height">39dp</dimen>
+    <dimen name="small_button_height">32dp</dimen>
+    <dimen name="image_button_size">79dp</dimen>
+    <dimen name="footer_margin">47dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="clearable_edit_text_height">45dp</dimen>
+    <dimen name="clearable_edit_text_padding">13dp</dimen>
+
+    <dimen name="user_icon_medium_size">59dp</dimen>
+    <dimen name="category_list_cell_height">60dp</dimen>
+    <dimen name="category_list_cell_icon_size">43dp</dimen>
+    <dimen name="goods_list_pic_size">80dp</dimen>
+    <dimen name="user_icon_large_size">48dp</dimen>
+
+    <dimen name="itemSize">100dp</dimen>
+    <dimen name="itemBorderWidth">2dp</dimen>
+
+    //home page
+    <dimen name="home_page_action_bar_imv_address_height">15dp</dimen>
+    <dimen name="home_page_action_bar_imv_address_width">15dp</dimen>
+    <dimen name="shop_search_listview_item_height">56dp</dimen>
+    <dimen name="shop_search_listview_item_pic_height">33dp</dimen>
+    <dimen name="fragment_category_gridview_item_pic_height">35dp</dimen>
+    <dimen name="fragment_category_gridview_item_margin">16dp</dimen>
+
+
+    // shopmenu  bottom
+    <dimen name="shop_menu_bottom_count_view_width">24dp</dimen>
+    <dimen name="shop_menu_bottom_btn_width">68dp</dimen>
+    <dimen name="shop_menu_bottom_btn_height">29dp</dimen>
+    <dimen name="layout_ui_group_inner_horizon_margin_9dp">9dp</dimen>
+    <dimen name="layout_ui_group_inner_horizon_margin_4dp">4dp</dimen>
+    <dimen name="layout_ui_group_inner_horizon_margin_11dp">11dp</dimen>
+
+    //action bar
+    <dimen name="action_bar_back_btn_height">49dp</dimen>
+    <dimen name="action_bar_back_btn_width">49dp</dimen>
+    <dimen name="action_bar_btn_normal_width">23dp</dimen>
+    <dimen name="action_bar_btn_normal_height">23dp</dimen>
+
+    //  其他
+    <dimen name="view_height_36dp">36dp</dimen>
+    <dimen name="view_height_40dp">40dp</dimen>
+    <dimen name="view_height_33dp">33dp</dimen>
+    <dimen name="view_width_83dp">83dp</dimen>
+    <dimen name="normal_line_width">0.63dp</dimen>
+    <dimen name="layout_ui_group_inner_vertical_margin_4dp">4dp</dimen>
+    <dimen name="view_height_169dp">169dp</dimen>
+    <dimen name="view_width_63dp">63dp</dimen>
+    <dimen name="view_height_width_13dp">13dp</dimen>
+    <dimen name="view_width_250dp">250dp</dimen>
+    <dimen name="view_height_1_33dp">1.33dp</dimen>
+    <dimen name="view_normal_border">1dp</dimen>
+    <dimen name="view_height_width_24dp">24dp</dimen>
+    <dimen name="view_height_width_35dp">35dp</dimen>
+    <dimen name="view_height_width_43dp">43dp</dimen>
+    <dimen name="view_height_width_29dp">29dp</dimen>
+    <dimen name="view_height_width_20dp">20dp</dimen>
+    <dimen name="view_width_0_5dp">0.5dp</dimen>
+    <dimen name="view_height_width_173dp">173dp</dimen>
+    <dimen name="view_height_width_17dp">17dp</dimen>
+    <dimen name="view_width_93dp">93dp</dimen>
+
+
+
+
+    <dimen name="normal_margin">13dp</dimen>
+    <dimen name="normal_padding">13dp</dimen>
+    <dimen name="layout_ui_group_inner_8dp">8dp</dimen>
+    <dimen name="view_height_width_12dp">12dp</dimen>
+
+    // form button
+    <dimen name="form_button_one_height">29dp</dimen>
+    <dimen name="form_button_one_width">140dp</dimen>
+    <dimen name="form_button_two_height">25dp</dimen>
+    <dimen name="form_button_two_width">67dp</dimen>
+    // 家厨
+    <dimen name="private_chef_image_width_height">41dp</dimen>
+    <dimen name="private_chef_image_width_height2">25dp</dimen>
+
+    <integer name="max_order_remake_text_num">50</integer>
+    <integer name="max_order_Special_requirements_text_num">50</integer>
+
+    <dimen name="timeline_dot_length">5dp</dimen>
+    <dimen name="timeline_circle_length">28dp</dimen>
+    <dimen name="indicator_size">6dp</dimen>
+    <dimen name="first_timeline_height">33dp</dimen>
+    <dimen name="finish_timeline_height">25dp</dimen>
+    <dimen name="scroll_bottom_offset">70dp</dimen>
+    <dimen name="search_icon_size">16dp</dimen>
+
+    <dimen name="_29dp">29dp</dimen>
+    <dimen name="_120dp">120dp</dimen>
+    <dimen name="qrcode_size">200dp</dimen>
+    <dimen name="_40dp">40dp</dimen>
+
+    <dimen name="normal_border_padding">13dp</dimen>
+    <dimen name="normal_border_padding_vertical">13dp</dimen>
+    <dimen name="normal_border_padding_horizontal">13dp</dimen>
+    <dimen name="normal_border_margin">13dp</dimen>
+    <dimen name="normal_border_margin_vertical">13dp</dimen>
+    <dimen name="normal_border_margin_horizontal">13dp</dimen>
+
+    <dimen name="tag_padding_leftright">10dp</dimen>
+    <dimen name="tag_padding_topbottom">4dp</dimen>
+    <dimen name="tag_margin_left">5dp</dimen>
+    <dimen name="tag_single_line_container_margin_top">7dp</dimen>
+    <dimen name="tag_container_padding_leftright">13dp</dimen>
+    <dimen name="tag_container_padding_topbottom">15dp</dimen>
+    <dimen name="tag_radius">3dp</dimen>
+    <dimen name="tag_right_offset">40dp</dimen>
+
+    <dimen name="tip_view_height">40dp</dimen>
+    <dimen name="tip_view_widget_padding">5dp</dimen>
+
+    <dimen name="action_bar_height">49dp</dimen>
+    <dimen name="action_bar_divide_width">1.33dp</dimen>
+    <dimen name="action_bar_divide_height">19dp</dimen>
+    <dimen name="action_bar_title_text_size">19sp</dimen>
+    <dimen name="action_bar_title_margine_left">13dp</dimen>
+    <dimen name="view_height_0_67dp">0.67dp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+    <dimen name="_13sp">13sp</dimen>
+    <dimen name="_14sp">14sp</dimen>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="_2dp">2dp</dimen>
+    <dimen name="_3dp">3dp</dimen>
+    <dimen name="_4dp">4dp</dimen>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="_6dp">6dp</dimen>
+    <dimen name="_7dp">7dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_9dp">9dp</dimen>
+    <dimen name="_11dp">11dp</dimen>
+    <dimen name="_12dp">12dp</dimen>
+    <dimen name="_13dp">13dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_19dp">19dp</dimen>
+    <dimen name="_21dp">21dp</dimen>
+    <dimen name="_23dp">23dp</dimen>
+    <dimen name="_24dp">24dp</dimen>
+    <dimen name="_28dp">28dp</dimen>
+    <dimen name="_30dp">30dp</dimen>
+    <dimen name="_34dp">34dp</dimen>
+    <dimen name="_45dp">45dp</dimen>
+    <dimen name="_48dp">48dp</dimen>
+    <dimen name="_60dp">60dp</dimen>
+    <dimen name="layout_ui_group_inner_horizon_margin">13dp</dimen>
+    <dimen name="normal_text_size">16sp</dimen>
+    <dimen name="row_inner_vertical_padding">13dp</dimen>
+    <dimen name="form_row_title_width">97dip</dimen>
+    <dimen name="row_controll_left_padding">13dp</dimen>
+    <dimen name="form_row_height">45dp</dimen> <!-- 一个form row 的高度 -->
+    <dimen name="activity_vertical_margin13dp">13dp</dimen>
+    <dimen name="activity_horizon_padding">13dp</dimen>
+    <dimen name="small_text_size">13sp</dimen>
+    <dimen name="ll_small_text_size">15sp</dimen>
+
+    <dimen name="big_button_height">45dp</dimen>
+
+
+    <dimen name="size_t1">51sp</dimen>
+    <dimen name="size_t2">27sp</dimen>
+    <dimen name="size_t3">26sp</dimen>
+    <dimen name="size_t4">22sp</dimen>
+    <dimen name="size_t5">21sp</dimen>
+    <dimen name="size_t6">20sp</dimen>
+    <dimen name="size_t7">19sp</dimen>
+    <dimen name="size_t8">18sp</dimen>
+    <dimen name="size_t9">17sp</dimen>
+    <dimen name="size_t10">16sp</dimen>
+    <dimen name="size_t11">15sp</dimen>
+    <dimen name="size_t12">14sp</dimen>
+    <dimen name="size_t13">13sp</dimen>
+    <dimen name="size_t14">12sp</dimen>
+    <dimen name="size_t15">11sp</dimen>
+    <dimen name="size_t16">9sp</dimen>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/actionbar_normal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.amap.api.maps2d.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/anchor"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/map_position_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/anchor"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/map_position_icon" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/map_position_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/normal_margin"
+            android:layout_marginRight="@dimen/normal_margin">
+
+            <com.mishi.baseui.MSTextView
+                android:id="@+id/target_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_round"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/arrow"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_below="@+id/target_position"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-1px"
+                android:background="@drawable/triangle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/top_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="@dimen/layout_ui_group_inner_vertical_11dp"
+            android:background="@drawable/bg_select_position_tip_shape"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/tip_icon"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/position_tip_icon" />
+
+                <com.mishi.baseui.MSTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/layout_ui_group_inner_horizon_margin_7dp"
+                    android:layout_toRightOf="@id/tip_icon"
+                    android:text="@string/select_position_tip"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/small_text_size" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

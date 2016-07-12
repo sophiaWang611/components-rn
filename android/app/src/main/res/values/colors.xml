@@ -1,0 +1,130 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="ms_actionbar_bg">#ffffff</color>
+    <color name="ms_actionbar_divider_bg">#eeeeee</color>
+    <color name="page_actionbar_bottom_devide">#eeeeee</color>
+
+
+    <color name="ms_transparent">#00000000</color>
+    <color name="ms_light_green">#76b43c</color>
+    <color name="ms_green">#21ad5a</color>
+    <color name="ms_black">#444444</color>
+    <color name="ms_main_bg">#f7f7f7</color>
+    <color name="ms_group_divider">#eeeeee</color>
+    <color name="ms_group_divider_light">#eeeeee</color>
+    <color name="ms_gray">#999999</color>
+    <color name="ms_alpha_light_gray2">#eeeeee</color>
+    <color name="ms_light_gray">#cccccc</color>
+    <color name="main_button_normal_bg">#21ad5a</color>
+    <color name="main_button_pressed_bg">#1d974e</color>
+    <color name="ms_dark">#777777</color>
+    <color name="ms_dot_line_gray">#eeeeee</color>
+    <color name="ms_white">#fffffe</color>
+    <color name="ms_white0">#fffffe</color>
+    <color name="ms_text_hint">#cccccc</color>
+    <color name="ms_score">#ff9844</color>
+    <color name="ms_money_green">#1d974e</color>
+    <color name="ms_dark_green">#1d974e</color>
+    <color name="ms_text_red_hint">#f74163</color>
+    <color name="ms_actionbar_menu_pre">#eeeeee</color>
+    <color name="alpha_white">#9afffffe</color>
+    <color name="ms_green2">#21af5e</color>
+
+    <!-- 基础颜色定义 -->
+    <color name="ms_f5f5f5">#f5f5f5</color>
+    <color name="ms_most_black">#000000</color>
+    <color name="ms_black2">#666666</color>
+    <color name="ms_alpha_light_gray">#88cccccc</color>
+    <color name="ms_blue">#00aaff</color>
+    <color name="ms_orange">#ffaa30</color>
+    <color name="ms_orange_2">#ff7c12</color>
+    <color name="ms_free_postage">#ffbf11</color>
+
+    <color name="ms_red">#f74163</color>
+    <color name="ms_red2">#d80c22</color>
+    <color name="ms_red_eval">#f0738a</color>
+    <color name="ms_blue2">#5172a3</color>
+
+    <!--  -->
+    <color name="ms_bg_dddddd">#dddddd</color>
+    <!-- 按钮颜色定义 -->
+    <color name="ms_button_orange_normal">#ffaa30</color>
+    <color name="ms_button_orange_pressed">#f0a232</color>
+
+    <!-- 新版本定义颜色 -->
+    <color name="fragment_category_gridview_pressed_bg">#64a12c</color>
+
+    <color name="sub_button_normal_bg">#ffffff</color>
+    <color name="sub_button_pressed_bg">#777777</color>
+    <color name="sub_button_invalid_bg">#c1c1c1</color>
+    <color name="home_as_up_background_pressed">#e5e5e5</color>
+
+    <color name="transparent_button_normal_bg">#00000000</color>
+    <color name="transparent_button_pressed_bg">#e0000000</color>
+
+    <color name="list_divider">#AA66cc</color>
+    <color name="focus_color">#AA000000</color>
+
+    <color name="nav_bg">#fafafa</color>
+    <!--player color-->
+    <color name="player_bar_bg_color">#2c2c2c</color>
+    <color name="player_seek_bar_bg_color">#4c4949</color>
+    <color name="player_seek_bar_progress_color">#21ad5a</color>
+    <color name="player_seek_bar_second_progress_color">#717171</color>
+    <color name="player_normal_color">#dcdcdc</color>
+
+    <!--定义等级颜色-->
+    <color name="ms_goods_eva_level_sz">#f74163</color>
+    <color name="ms_goods_eva_level_hc">#f79741</color>
+    <color name="ms_goods_eva_level_bc">#f8d33f</color>
+
+    <color name="ms_service_eva_level_gd">#41b0f7</color>
+    <color name="ms_service_eva_level_my">#41f7a8</color>
+    <color name="ms_service_eva_level_yb">#cdcdcd</color>
+
+    <color name="fragment_category_gridview_bg">#eeeeee</color>
+    <!--家厨菜单中用到颜色-->
+    <color name="shopmenu_order_btn_unclickable">#e2e2e2</color>
+
+    <color name="ms_5f5f7c">#5f5f7c</color>
+    <color name="ms_4a4a60">#4a4a60</color>
+    <drawable name="toggle_button_bg">#00000000</drawable>
+    <color name="popup_main_background">#a0000000</color>
+
+    <color name="timeline_grey">#e5e6e9</color>
+    <color name="ms_80persent_black">#cc000000</color>
+    <color name="ms_95persent_white0">#f3ffffff</color>
+    <color name="ms_f6f6f6">#f6f6f6</color>
+    <color name="ms_60persent_black">#9a444444</color>
+    <color name="ms_30persent_black">#4d444444</color>
+    <color name="ms_80persent_white0">#cdffffff</color>
+
+    <color name="ms_activity_gift">#55c06e</color>
+    <color name="ms_activity_gift_tag">#999999</color>
+    <color name="ms_activity_eat">#f75c2f</color>
+    <color name="ms_95persent_orange">#f3ffaa30</color>
+    <color name="ms_60persent_alpha_light_gray2">#9aeeeeee</color>
+    <color name="ms_EEEdec">#EEEdec</color>
+    <color name="ms_60persent_most_black">#99000000</color>
+    <color name="ms_50persent_most_black">#7f000000</color>or>
+    <color name="ms_score_orange">#efbb24</color>
+    <color name="ms_f4f4f4">#f4f4f4</color>
+    <color name="ms_goods_select_color">#fffdf4</color>
+    <color name="ms_f0f0f0">#f0f0f0</color>
+    <color name="ms_f9f9f9">#f9f9f9</color>
+    <color name="ms_ededed">#ededed</color>
+    <color name="ms_e3e3e3">#e3e3e3</color>
+    <color name="ms_ECEBEB">#ECEBEB</color>
+    <color name="ms_aaaaaa">#aaaaaa</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="ms_count_orange">#fec472</color>
+    <color name="tag_bg">#e7e7e7</color>
+    <color name="order_status_orange">#ff6c00</color>
+
+    <color name="ms_home_light_gray">#d8d8d8</color>
+    <color name="ms_fac727">#FAC727</color>
+    <color name="translucent_clr">#ae000000</color>
+
+</resources>

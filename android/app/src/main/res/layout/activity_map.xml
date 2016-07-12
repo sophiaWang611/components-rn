@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.amap.api.maps2d.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.mishi.baseui.MSButton
+        android:id="@+id/map_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/bg_map_back_selector" />
+
+
+    <com.mishi.baseui.MSButton
+        android:id="@+id/map_position"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/bg_map_position_selector" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape>
+            <!-- 填充的颜色 -->
+            <solid android:color="@color/main_button_pressed_bg" />
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="3dip" />
+        </shape></item>
+    <item><shape>
+            <solid android:color="@color/ms_green" />
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="3dip" />
+        </shape></item>
+
+</selector>

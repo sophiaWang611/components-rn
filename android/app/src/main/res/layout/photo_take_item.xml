@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mishi.baseComponents.MSPhoto.PhotoPickImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scaleType="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/ms_green"
+    android:src="@drawable/photo"/>

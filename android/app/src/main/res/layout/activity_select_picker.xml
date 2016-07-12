@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99000000"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/ms_white0"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/ui_ll_acsd"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/ms_white">
+
+            <com.mishi.baseui.MSTextView
+                android:id="@+id/tv_close"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="@dimen/activity_horizon_padding"
+                android:paddingRight="@dimen/activity_horizon_padding"
+                android:text="取消"
+                android:textColor="@color/ms_black"
+                android:textSize="@dimen/small_text_size" />
+
+            <com.mishi.baseui.MSTextView
+                android:id="@+id/tv_done"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="@dimen/activity_horizon_padding"
+                android:paddingRight="@dimen/activity_horizon_padding"
+                android:text="确定"
+                android:textColor="@color/ms_blue"
+                android:textSize="@dimen/small_text_size" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ms_alpha_light_gray2"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/ui_lv_acsd_textView_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="开始"
+                android:textColor="@color/ms_black"
+                android:textSize="@dimen/normal_text_size" />
+
+            <TextView
+                android:id="@+id/ui_lv_acsd_textView_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="结束"
+                android:textColor="@color/ms_black"
+                android:textSize="@dimen/normal_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ms_alpha_light_gray2"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/ui_lv_acsd_listview_start"
+                style="@style/MSListStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@color/ms_white0"
+                android:divider="@null" />
+
+            <ListView
+                android:id="@+id/ui_lv_acsd_listview_end"
+                style="@style/MSListStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@color/ms_white0"
+                android:divider="@null" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
