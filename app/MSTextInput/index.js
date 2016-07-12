@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 15/11/30.
+ *
+ * @providesModule MSTextInput
  */
 'use strict';
 

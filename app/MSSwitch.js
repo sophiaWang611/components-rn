@@ -1,5 +1,6 @@
 /**
  * Created by sophia on 16/3/15.
+ * @providesModule MSSwitchView
  */
 'use strict';
 

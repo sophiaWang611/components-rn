@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 15/11/18.
+ *
+ * @providesModule MSScrollableTabView
  */
 'use strict';
 

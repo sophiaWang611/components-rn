@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/3/4.
+ *
+ * @providesModule MSTableView
  */
 'use strict';
 

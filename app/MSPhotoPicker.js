@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 15/12/15.
+ *
+ * @providesModule MSPhotoPicker
  */
 'use strict';
 

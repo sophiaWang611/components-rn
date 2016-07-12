@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/3/5.
+ *
+ * @providesModule MSSearchBar
  */
 'use strict';
 
@@ -31,7 +33,7 @@ var MSSearchBar = React.createClass({
             <TouchableWithoutFeedback onPress={()=>{this.setState({dom: this._showEditInput})}}>
                 <View style={{marginTop:5,marginBottom:5, borderRadius:2, height:34, flex:1, marginRight:15, backgroundColor:"#f5f5f5",alignItems: 'center',justifyContent: 'center'}}>
                     <View style={{flexDirection: "row",alignItems: 'center',justifyContent: 'center'}}>
-                        <Image source={require("../img/search_icon_gray.png")}
+                        <Image source={require("./img/search_icon_gray.png")}
                                style={{height:12,width:12}}/>
                         <Text style={{color:"#999", fontSize:13, marginLeft:5}}>搜索地点</Text>
                     </View>
@@ -44,7 +46,7 @@ var MSSearchBar = React.createClass({
             <View style={{marginTop:5,marginBottom:5, flexDirection: "row",alignItems: 'center',height:34, flex:1, marginRight:15}}>
                 <View style={{flexDirection: "row",alignItems: 'center',borderRadius:2, flex:1, backgroundColor:"#f5f5f5"}}>
                     <View style={{justifyContent:"flex-start", marginLeft: 5}}>
-                        <Image source={require("../img/search_icon_gray.png")} style={{height:12,width:12}}/>
+                        <Image source={require("./img/search_icon_gray.png")} style={{height:12,width:12}}/>
                     </View>
                     <TextInput placeholder={this.props.placeholder || "搜索地址"}
                                autoFocus={true}

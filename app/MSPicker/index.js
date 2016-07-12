@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/2/17.
+ *
+ * @providesModule MSPicker
  */
 'use strict';
 

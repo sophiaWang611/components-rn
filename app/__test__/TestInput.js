@@ -11,7 +11,7 @@ var {
     Text
     } = require('react-native');
 var {CommonStyle,MSBase} = require("../theme");
-var MSTextInput = require("../MSTextInput");
+var {MSTextInput} = require("MSComponents");
 
 var TestInput = React.createClass({
     getInitialState: function() {

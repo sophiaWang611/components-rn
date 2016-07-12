@@ -1,5 +1,7 @@
 /**
  * Created by Eugene on 15/11/4.
+ *
+ * @providesModule MSEvaluate
  */
 'use strict';
 

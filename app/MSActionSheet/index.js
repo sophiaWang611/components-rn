@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/3/9.
+ *
+ * @providesModule MSActionSheet
  */
 'use strict';
 

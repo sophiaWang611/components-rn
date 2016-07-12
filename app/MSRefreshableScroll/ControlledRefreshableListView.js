@@ -35,16 +35,16 @@ const statusStrLoad = "正在刷新数据中";
 
 var ControlledRefreshableListView = React.createClass({
     propTypes: {
-        onRefresh: PropTypes.func.isRequired,
-        isRefreshing: PropTypes.bool.isRequired,
-        refreshPrompt: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-        refreshDescription: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-        minPulldownDistance: PropTypes.number,
-        ignoreInertialScroll: PropTypes.bool,
-        scrollEventThrottle: PropTypes.number,
-        onScroll: PropTypes.func,
-        onResponderGrant: PropTypes.func,
-        onResponderRelease: PropTypes.func,
+        onRefresh: React.PropTypes.func.isRequired,
+        isRefreshing: React.PropTypes.bool.isRequired,
+        refreshPrompt: React.PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.element]),
+        refreshDescription: React.PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.element]),
+        minPulldownDistance: React.PropTypes.number,
+        ignoreInertialScroll: React.PropTypes.bool,
+        scrollEventThrottle: React.PropTypes.number,
+        onScroll: React.PropTypes.func,
+        onResponderGrant: React.PropTypes.func,
+        onResponderRelease: React.PropTypes.func,
     },
     getDefaultProps() {
         this._lastScrollDispatchTime = 0;
@@ -206,7 +206,7 @@ var ControlledRefreshableListView = React.createClass({
 
     _getLoading:function() {
         var msg = this.state.msg;
-        var loadImg = <Image source={require("../../img/icon_load.png")} style={[stylesheet.imageLabel, {transform: [{rotate: this.state.rotate}]}]}/>;
+        var loadImg = <Image source={require("../img/icon_load.png")} style={[stylesheet.imageLabel, {transform: [{rotate: this.state.rotate}]}]}/>;
         if (this.props.isRefreshing) {
             msg = statusStrLoad;
             loadImg = <ActivityIndicatorIOS style={stylesheet.imageLabel}/>;

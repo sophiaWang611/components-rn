@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/4/5.
+ *
+ * @providesModule MSHtmlView
  */
 'use strict';
 

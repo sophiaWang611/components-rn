@@ -1,5 +1,7 @@
 /**
  * Created by litian on 15/11/6.
+ *
+ * @providesModule MSTextAreaView
  */
 'use strict';
 var React = require('react');

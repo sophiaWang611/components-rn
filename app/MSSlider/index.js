@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/6/8.
+ *
+ * @providesModule MSSlider
  */
 'use strict';
 

@@ -1,3 +1,6 @@
+/**
+ * @providesModule MSRefreshableScrollView
+ */
 var React = require('react');
 
 var {
@@ -6,20 +9,20 @@ var {
     } = require('react-native');
 
 var isPromise = require('is-promise');
-var {Delay} = require('../../utils');
+var {Delay} = require('../utils');
 var ControlledRefreshableListView = require('./ControlledRefreshableListView');
 
 const SCROLL_REF = 'scrollview';
 
 var RefreshableScrollView = React.createClass({
     propTypes: {
-        loadData: PropTypes.func.isRequired,
-        minDisplayTime: PropTypes.number,
-        minBetweenTime: PropTypes.number,
+        loadData: React.PropTypes.func.isRequired,
+        minDisplayTime: React.PropTypes.number,
+        minBetweenTime: React.PropTypes.number,
         // props passed to child
-        refreshPrompt: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-        refreshDescription: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-        minPulldownDistance: PropTypes.number,
+        refreshPrompt: React.PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.element]),
+        refreshDescription: React.PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.element]),
+        minPulldownDistance: React.PropTypes.number,
     },
     getDefaultProps() {
         return {

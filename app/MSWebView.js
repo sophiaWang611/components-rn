@@ -1,3 +1,6 @@
+/**
+ * @providesModule MSWebView
+ */
 'use strict';
 
 var EdgeInsetsPropType = require('EdgeInsetsPropType');

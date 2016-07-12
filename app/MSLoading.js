@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/3/15.
+ *
+ * @providesModule MSLoadingView
  */
 'use strict';
 
@@ -22,7 +24,7 @@ if (Platform.OS === 'android') {
         render: function () {
             return (
                 <View style={[container, this.props.style]}>
-                    <Image source={require("../img/loading.gif")} style={{height:15,width:15}}/>
+                    <Image source={require("./img/loading.gif")} style={{height:15,width:15}}/>
                     <Text style={{marginTop:-3,marginLeft:5}}>正在加载</Text>
                 </View>
             );

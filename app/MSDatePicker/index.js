@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/4/12.
+ *
+ * @providesModule MSDatePicker
  */
 'use strict';
 

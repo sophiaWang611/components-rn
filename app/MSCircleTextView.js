@@ -1,5 +1,7 @@
 /**
  * Created by sophia on 16/1/13.
+ *
+ * @providesModule MSCircleTextView
  */
 'use strict';
 

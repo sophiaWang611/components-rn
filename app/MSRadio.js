@@ -1,5 +1,7 @@
 /**
  * Created by litian on 15/11/5.
+ *
+ * @providesModule MSRadioView
  */
 'use strict';
 /**

@@ -46,16 +46,16 @@ var MSModal = React.createClass({
     },
 
     propTypes: {
-        isVisible: PropTypes.bool,
-        hideCloseButton: PropTypes.bool,
-        backdropType: PropTypes.string,
-        onClose: PropTypes.func,
-        onPressBackdrop: PropTypes.func,
-        customCloseButton: PropTypes.node,
-        customShowHandler: PropTypes.func,
-        customHideHandler: PropTypes.func,
-        forceToFront: PropTypes.bool,
-        containerPointerEvents: PropTypes.oneOf([
+        isVisible: React.PropTypes.bool,
+        hideCloseButton: React.PropTypes.bool,
+        backdropType: React.PropTypes.string,
+        onClose: React.PropTypes.func,
+        onPressBackdrop: React.PropTypes.func,
+        customCloseButton: React.PropTypes.node,
+        customShowHandler: React.PropTypes.func,
+        customHideHandler: React.PropTypes.func,
+        forceToFront: React.PropTypes.bool,
+        containerPointerEvents: React.PropTypes.oneOf([
             'box-none',
             'none',
             'box-only',
