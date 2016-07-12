@@ -15,11 +15,11 @@ var {
     TouchableWithoutFeedback,
     Dimensions,
     PixelRatio,
-    DatePickerAndroid
+    DatePickerAndroid,
+    Animated,
+    UIManager
     } = require('react-native');
 
-var PropTypes = require('ReactPropTypes');
-var Animated = require('Animated');
 var {CommonStyle} = require("../theme/index");
 var wHeight = Dimensions.get('window').height;
 var wWidth = Dimensions.get('window').width;
@@ -28,7 +28,7 @@ var DatePicker = null;
 var componentHeight = 0;
 if (Platform.OS !== 'android') {
     DatePicker = require("./MSDatePicker.ios");
-    var RCTDatePickerIOSConsts = require('UIManager').RCTDatePicker.Constants;
+    var RCTDatePickerIOSConsts = UIManager.RCTDatePicker.Constants;
     componentHeight = RCTDatePickerIOSConsts.ComponentHeight;
 } else {
     DatePicker = DatePickerAndroid;
