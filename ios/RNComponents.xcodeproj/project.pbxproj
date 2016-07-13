@@ -7,74 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
-		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
-		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
-		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
-		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* RNComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNComponentsTests.m */; };
-		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
-		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
-		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		90AF5A3D3BF5CC8390C1FD0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FF1923092ED0DCD24B887 /* libPods.a */; };
-		EC13647D1D34CE2D001912E4 /* MSLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC13647C1D34CE2D001912E4 /* MSLocationService.m */; };
-		EC37A1DC1D334D490032D738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1881D334D490032D738 /* AppDelegate.m */; };
-		EC37A1DD1D334D490032D738 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC37A1891D334D490032D738 /* LaunchScreen.xib */; };
-		EC37A1DE1D334D490032D738 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC37A18B1D334D490032D738 /* Images.xcassets */; };
-		EC37A1DF1D334D490032D738 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC37A18C1D334D490032D738 /* Info.plist */; };
-		EC37A1E01D334D490032D738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A18D1D334D490032D738 /* main.m */; };
-		EC37A1E11D334D490032D738 /* MSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1901D334D490032D738 /* MSColor.m */; };
-		EC37A1E21D334D490032D738 /* MSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1921D334D490032D738 /* MSFont.m */; };
-		EC37A1E31D334D490032D738 /* MSCircleTextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1951D334D490032D738 /* MSCircleTextManager.m */; };
-		EC37A1E41D334D490032D738 /* MSCircleTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1971D334D490032D738 /* MSCircleTextView.m */; };
-		EC37A1E51D334D490032D738 /* MSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1991D334D490032D738 /* MSConfig.m */; };
-		EC37A1E61D334D490032D738 /* MSHtmlTxtManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A19C1D334D490032D738 /* MSHtmlTxtManager.m */; };
-		EC37A1E71D334D490032D738 /* MSHtmlTxtView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A19E1D334D490032D738 /* MSHtmlTxtView.m */; };
-		EC37A1E81D334D490032D738 /* RNImageCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1A11D334D490032D738 /* RNImageCrop.m */; };
-		EC37A1E91D334D490032D738 /* RNImageEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1A31D334D490032D738 /* RNImageEditor.m */; };
-		EC37A1EA1D334D490032D738 /* RNImageEditorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1A51D334D490032D738 /* RNImageEditorManager.m */; };
-		EC37A1EB1D334D490032D738 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1A71D334D490032D738 /* UIImage+Alpha.m */; };
-		EC37A1EC1D334D490032D738 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1A91D334D490032D738 /* UIImage+Resize.m */; };
-		EC37A1ED1D334D490032D738 /* UIImage+RoundedCorne.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1AB1D334D490032D738 /* UIImage+RoundedCorne.m */; };
-		EC37A1EE1D334D490032D738 /* MSAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1AE1D334D490032D738 /* MSAddress.m */; };
-		EC37A1EF1D334D490032D738 /* MSAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1B01D334D490032D738 /* MSAdjustViewController.m */; };
-		EC37A1F01D334D490032D738 /* MSAdjustViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC37A1B11D334D490032D738 /* MSAdjustViewController.xib */; };
-		EC37A1F11D334D490032D738 /* MSCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1B31D334D490032D738 /* MSCustomAnnotationView.m */; };
-		EC37A1F21D334D490032D738 /* MSCustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1B51D334D490032D738 /* MSCustomCalloutView.m */; };
-		EC37A1F31D334D490032D738 /* MSMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1B71D334D490032D738 /* MSMapController.m */; };
-		EC37A1F41D334D490032D738 /* MSMapStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1B91D334D490032D738 /* MSMapStatus.m */; };
-		EC37A1F51D334D490032D738 /* MSMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1BB1D334D490032D738 /* MSMapViewManager.m */; };
-		EC37A1F61D334D490032D738 /* MSSearchMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1BD1D334D490032D738 /* MSSearchMapController.m */; };
-		EC37A1F71D334D490032D738 /* MSMaskInput.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1C01D334D490032D738 /* MSMaskInput.m */; };
-		EC37A1F81D334D490032D738 /* MSMaskInputManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1C21D334D490032D738 /* MSMaskInputManager.m */; };
-		EC37A1F91D334D490032D738 /* MSOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1C51D334D490032D738 /* MSOverlay.m */; };
-		EC37A1FA1D334D490032D738 /* MSOverlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1C71D334D490032D738 /* MSOverlayManager.m */; };
-		EC37A1FB1D334D490032D738 /* RNClickThroughWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1C91D334D490032D738 /* RNClickThroughWindow.m */; };
-		EC37A1FC1D334D490032D738 /* UIImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1CC1D334D490032D738 /* UIImagePickerManager.m */; };
-		EC37A1FD1D334D490032D738 /* MSPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1CF1D334D490032D738 /* MSPicker.m */; };
-		EC37A1FE1D334D490032D738 /* MSPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1D11D334D490032D738 /* MSPickerManager.m */; };
-		EC37A1FF1D334D490032D738 /* MSSilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1D41D334D490032D738 /* MSSilder.m */; };
-		EC37A2001D334D490032D738 /* MSSliderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1D61D334D490032D738 /* MSSliderManager.m */; };
-		EC37A2011D334D490032D738 /* MSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1D91D334D490032D738 /* MSTableView.m */; };
-		EC37A2021D334D490032D738 /* MSTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37A1DB1D334D490032D738 /* MSTableViewManager.m */; };
-		EC37A2091D334DE40032D738 /* libRNTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A1731D3347D00032D738 /* libRNTableView.a */; };
-		EC37A2221D3351110032D738 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC37A2211D3351110032D738 /* AMap.bundle */; };
-		EC37A2241D3368A20032D738 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2231D3368A20032D738 /* libstdc++.6.0.9.tbd */; };
-		EC37A2261D3368B50032D738 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2251D3368B50032D738 /* libz.tbd */; };
-		EC37A2281D336ADE0032D738 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2271D336ADE0032D738 /* libc++.tbd */; };
-		EC37A2301D336D250032D738 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A22F1D336D250032D738 /* libsqlite3.tbd */; };
-		EC37A2361D336F0F0032D738 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2331D336F0F0032D738 /* MAMapKit.framework */; };
-		EC37A23A1D336FBD0032D738 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2391D336FBD0032D738 /* AMapSearchKit.framework */; };
-		EC37A23C1D3370BB0032D738 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A23B1D3370BB0032D738 /* AudioToolbox.framework */; };
-		EC37A23E1D3370C10032D738 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A23D1D3370C10032D738 /* AVFoundation.framework */; };
-		EC37A2401D3370C90032D738 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A23F1D3370C90032D738 /* AddressBook.framework */; };
-		EC37A2421D3370D30032D738 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2411D3370D30032D738 /* CoreTelephony.framework */; };
-		EC37A2441D3370DB0032D738 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2431D3370DB0032D738 /* Security.framework */; };
-		EC37A2461D3370E30032D738 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2451D3370E30032D738 /* SystemConfiguration.framework */; };
-		EC37A2481D3370ED0032D738 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC37A2471D3370ED0032D738 /* CoreGraphics.framework */; };
+		EC1364B11D361033001912E4 /* RNComponents.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC1364B01D361033001912E4 /* RNComponents.h */; };
+		EC1364B31D361033001912E4 /* RNComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1364B21D361033001912E4 /* RNComponents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,13 +48,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
 			remoteInfo = RCTVibration;
-		};
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = RNComponents;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -164,6 +93,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EC1364AC1D361033001912E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EC1364B11D361033001912E4 /* RNComponents.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
 		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
@@ -177,13 +119,15 @@
 		138FF1923092ED0DCD24B887 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* RNComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		C11859F2D5B8E52523DA8195 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EC13647B1D34CE2D001912E4 /* MSLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLocationService.h; sourceTree = "<group>"; };
 		EC13647C1D34CE2D001912E4 /* MSLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLocationService.m; sourceTree = "<group>"; };
+		EC1364AE1D361033001912E4 /* libRNComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNComponents.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1364B01D361033001912E4 /* RNComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNComponents.h; sourceTree = "<group>"; };
+		EC1364B21D361033001912E4 /* RNComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNComponents.m; sourceTree = "<group>"; };
 		EC37A16E1D3347D00032D738 /* RNTableView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNTableView.xcodeproj; path = "../node_modules/react-native-tableview/RNTableView.xcodeproj"; sourceTree = "<group>"; };
 		EC37A1871D334D490032D738 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC37A1881D334D490032D738 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -283,35 +227,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+		EC1364AB1D361033001912E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC37A2481D3370ED0032D738 /* CoreGraphics.framework in Frameworks */,
-				EC37A2461D3370E30032D738 /* SystemConfiguration.framework in Frameworks */,
-				EC37A2441D3370DB0032D738 /* Security.framework in Frameworks */,
-				EC37A2421D3370D30032D738 /* CoreTelephony.framework in Frameworks */,
-				EC37A2401D3370C90032D738 /* AddressBook.framework in Frameworks */,
-				EC37A23E1D3370C10032D738 /* AVFoundation.framework in Frameworks */,
-				EC37A23C1D3370BB0032D738 /* AudioToolbox.framework in Frameworks */,
-				EC37A2301D336D250032D738 /* libsqlite3.tbd in Frameworks */,
-				EC37A2281D336ADE0032D738 /* libc++.tbd in Frameworks */,
-				EC37A2261D3368B50032D738 /* libz.tbd in Frameworks */,
-				EC37A2241D3368A20032D738 /* libstdc++.6.0.9.tbd in Frameworks */,
-				EC37A2091D334DE40032D738 /* libRNTableView.a in Frameworks */,
-				146834051AC3E58100842450 /* libReact.a in Frameworks */,
-				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
-				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
-				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
-				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
-				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
-				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				EC37A2361D336F0F0032D738 /* MAMapKit.framework in Frameworks */,
-				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
-				EC37A23A1D336FBD0032D738 /* AMapSearchKit.framework in Frameworks */,
-				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
-				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				90AF5A3D3BF5CC8390C1FD0E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +359,7 @@
 				EC37A1861D334D490032D738 /* RNComponents */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNComponentsTests */,
+				EC1364AF1D361033001912E4 /* RNComponents */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				EC37A1531D3346A30032D738 /* Frameworks */,
 				B5D24C0E8C6B82330657C7E7 /* Pods */,
@@ -451,8 +371,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* RNComponents.app */,
 				00E356EE1AD99517003FC87E /* RNComponentsTests.xctest */,
+				EC1364AE1D361033001912E4 /* libRNComponents.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -473,6 +393,15 @@
 				EC13647C1D34CE2D001912E4 /* MSLocationService.m */,
 			);
 			path = MSLocationService;
+			sourceTree = "<group>";
+		};
+		EC1364AF1D361033001912E4 /* RNComponents */ = {
+			isa = PBXGroup;
+			children = (
+				EC1364B01D361033001912E4 /* RNComponents.h */,
+				EC1364B21D361033001912E4 /* RNComponents.m */,
+			);
+			path = RNComponents;
 			sourceTree = "<group>";
 		};
 		EC37A1531D3346A30032D738 /* Frameworks */ = {
@@ -687,33 +616,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = RNComponentsTests;
 			productName = RNComponentsTests;
 			productReference = 00E356EE1AD99517003FC87E /* RNComponentsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* RNComponents */ = {
+		EC1364AD1D361033001912E4 /* RNComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNComponents" */;
+			buildConfigurationList = EC1364B41D361033001912E4 /* Build configuration list for PBXNativeTarget "RNComponents" */;
 			buildPhases = (
-				054D387A72E4C2D55A241EE7 /* Check Pods Manifest.lock */,
-				13B07F871A680F5B00A75B9A /* Sources */,
-				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C8297E1DCDE6F24B9DF89323 /* Embed Pods Frameworks */,
-				18CF86242D89303517756EAB /* Copy Pods Resources */,
+				EC1364AA1D361033001912E4 /* Sources */,
+				EC1364AB1D361033001912E4 /* Frameworks */,
+				EC1364AC1D361033001912E4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RNComponents;
-			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* RNComponents.app */;
-			productType = "com.apple.product-type.application";
+			productName = RNComponents;
+			productReference = EC1364AE1D361033001912E4 /* libRNComponents.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -727,6 +651,9 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					EC1364AD1D361033001912E4 = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -789,7 +716,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* RNComponents */,
+				EC1364AD1D361033001912E4 /* RNComponents */,
 				00E356ED1AD99517003FC87E /* RNComponentsTests */,
 			);
 		};
@@ -883,81 +810,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC37A2221D3351110032D738 /* AMap.bundle in Resources */,
-				EC37A1DD1D334D490032D738 /* LaunchScreen.xib in Resources */,
-				EC37A1F01D334D490032D738 /* MSAdjustViewController.xib in Resources */,
-				EC37A1DE1D334D490032D738 /* Images.xcassets in Resources */,
-				EC37A1DF1D334D490032D738 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native code and images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
-		};
-		054D387A72E4C2D55A241EE7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		18CF86242D89303517756EAB /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C8297E1DCDE6F24B9DF89323 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00E356EA1AD99517003FC87E /* Sources */ = {
@@ -968,58 +821,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F871A680F5B00A75B9A /* Sources */ = {
+		EC1364AA1D361033001912E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC37A1E01D334D490032D738 /* main.m in Sources */,
-				EC37A1E91D334D490032D738 /* RNImageEditor.m in Sources */,
-				EC37A1FC1D334D490032D738 /* UIImagePickerManager.m in Sources */,
-				EC37A1F31D334D490032D738 /* MSMapController.m in Sources */,
-				EC37A1EA1D334D490032D738 /* RNImageEditorManager.m in Sources */,
-				EC37A1FD1D334D490032D738 /* MSPicker.m in Sources */,
-				EC37A1FE1D334D490032D738 /* MSPickerManager.m in Sources */,
-				EC37A1F91D334D490032D738 /* MSOverlay.m in Sources */,
-				EC37A1FF1D334D490032D738 /* MSSilder.m in Sources */,
-				EC37A1E11D334D490032D738 /* MSColor.m in Sources */,
-				EC37A1E21D334D490032D738 /* MSFont.m in Sources */,
-				EC37A1E51D334D490032D738 /* MSConfig.m in Sources */,
-				EC13647D1D34CE2D001912E4 /* MSLocationService.m in Sources */,
-				EC37A1EF1D334D490032D738 /* MSAdjustViewController.m in Sources */,
-				EC37A2011D334D490032D738 /* MSTableView.m in Sources */,
-				EC37A1E71D334D490032D738 /* MSHtmlTxtView.m in Sources */,
-				EC37A1E81D334D490032D738 /* RNImageCrop.m in Sources */,
-				EC37A1E41D334D490032D738 /* MSCircleTextView.m in Sources */,
-				EC37A2021D334D490032D738 /* MSTableViewManager.m in Sources */,
-				EC37A1E61D334D490032D738 /* MSHtmlTxtManager.m in Sources */,
-				EC37A2001D334D490032D738 /* MSSliderManager.m in Sources */,
-				EC37A1F71D334D490032D738 /* MSMaskInput.m in Sources */,
-				EC37A1DC1D334D490032D738 /* AppDelegate.m in Sources */,
-				EC37A1E31D334D490032D738 /* MSCircleTextManager.m in Sources */,
-				EC37A1FB1D334D490032D738 /* RNClickThroughWindow.m in Sources */,
-				EC37A1F41D334D490032D738 /* MSMapStatus.m in Sources */,
-				EC37A1EE1D334D490032D738 /* MSAddress.m in Sources */,
-				EC37A1F11D334D490032D738 /* MSCustomAnnotationView.m in Sources */,
-				EC37A1F21D334D490032D738 /* MSCustomCalloutView.m in Sources */,
-				EC37A1ED1D334D490032D738 /* UIImage+RoundedCorne.m in Sources */,
-				EC37A1FA1D334D490032D738 /* MSOverlayManager.m in Sources */,
-				EC37A1F61D334D490032D738 /* MSSearchMapController.m in Sources */,
-				EC37A1EB1D334D490032D738 /* UIImage+Alpha.m in Sources */,
-				EC37A1EC1D334D490032D738 /* UIImage+Resize.m in Sources */,
-				EC37A1F51D334D490032D738 /* MSMapViewManager.m in Sources */,
-				EC37A1F81D334D490032D738 /* MSMaskInputManager.m in Sources */,
+				EC1364B31D361033001912E4 /* RNComponents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* RNComponents */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EC37A1891D334D490032D738 /* LaunchScreen.xib */ = {
@@ -1059,65 +869,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNComponents.app/RNComponents";
-			};
-			name = Release;
-		};
-		13B07F941A680F5B00A75B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C11859F2D5B8E52523DA8195 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEAD_CODE_STRIPPING = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/../node_modules/react-native-tableview/**",
-					"$(SRCROOT)/../node_modules/react-native/Libraries/Text/**",
-					"$(SRCROOT)/../node_modules/react-native/Libraries/Image/**",
-					"$(SRCROOT)/../node_modules/react-native/**",
-				);
-				INFOPLIST_FILE = RNComponents/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mishi.RNComponents.ios;
-				PRODUCT_NAME = RNComponents;
-			};
-			name = Debug;
-		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07A19D4D147E7F95B3FE6556 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/../node_modules/react-native-tableview/**",
-					"$(SRCROOT)/../node_modules/react-native/Libraries/Text/**",
-					"$(SRCROOT)/../node_modules/react-native/Libraries/Image/**",
-					"$(SRCROOT)/../node_modules/react-native/**",
-				);
-				INFOPLIST_FILE = RNComponents/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mishi.RNComponents.ios;
-				PRODUCT_NAME = RNComponents;
 			};
 			name = Release;
 		};
@@ -1207,6 +958,34 @@
 			};
 			name = Release;
 		};
+		EC1364B51D361033001912E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC1364B61D361033001912E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1219,15 +998,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNComponents" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
-				13B07F951A680F5B00A75B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1236,6 +1006,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EC1364B41D361033001912E4 /* Build configuration list for PBXNativeTarget "RNComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1364B51D361033001912E4 /* Debug */,
+				EC1364B61D361033001912E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
