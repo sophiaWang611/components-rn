@@ -17,7 +17,7 @@ var {
     View,
     requireNativeComponent
     } = require('react-native');
-var RNTableViewConsts = NativeModules.UIManager.MSTableView.Constants;
+var RNTableViewConsts = NativeModules.MSTableView.Constants;
 
 var TABLEVIEW = 'tableview';
 

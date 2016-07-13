@@ -30,12 +30,13 @@ var {
     StyleSheet,
     TouchableWithoutFeedback,
     NativeModules,
+    UIManager,
     ReactNativeViewAttributes,
     requireNativeComponent
     } = require('react-native');
 
 var React = require('react');
-var RCTPickerIOSConsts = NativeModules.UIManager.MSPicker.Constants;
+var RCTPickerIOSConsts = NativeModules.MSPicker.Constants;
 var {CommonStyle} = require("../theme/index");
 
 var merge = require('merge');
