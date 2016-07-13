@@ -10,7 +10,9 @@
 'use strict';
 
 var React = require('react');
-var ReactChildren = require('ReactChildren');
+var {
+    ReactChildren
+    } = React;
 var TimerMixin = require('react-timer-mixin');
 
 var {
@@ -24,13 +26,13 @@ var {
     TextInputState,
     TouchableWithoutFeedback,
     UIManager,
-    View
+    View,
+    requireNativeComponent,
+    createReactNativeComponentClass
     } = require('react-native');
 
-var createReactNativeComponentClass = require('createReactNativeComponentClass');
 var emptyFunction = require('fbjs/lib/emptyFunction');
 var invariant = require('fbjs/lib/invariant');
-var requireNativeComponent = require('requireNativeComponent');
 
 var onlyMultiline = {
   onTextInput: true, // not supported in Open Source yet
