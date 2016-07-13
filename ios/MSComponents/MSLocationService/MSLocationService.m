@@ -11,7 +11,7 @@
 #import <CoreLocation/CLLocation.h>
 #import <AMapLocationKit/AMapLocationkit.h>
 #import <AMapSearchKit/AMapSearchKit.h>
-#import "MSSdkConfig.h"
+#import "MSConfig.h"
 
 //static NSString *AMAP_API_KEY = @"777f3f64a01b65c929664347c337fd6b";
 
@@ -89,14 +89,14 @@ RCT_EXPORT_METHOD(userLocation: (RCTResponseSenderBlock)callback) {
   self = [super init];
   if (self) {
     //
-    [[AMapLocationServices sharedServices] setApiKey:[[MSSdkConfig globalConfig] amapAPIKey]];
+    [[AMapLocationServices sharedServices] setApiKey:[[MSConfig globalConfig] getMapKey]];
     self.locationManager = [[AMapLocationManager alloc] init];
     self.locationCondition = [[NSCondition alloc] init];
     self.isLocationDone = NO;
     
     [self startLocate];
     
-    [[AMapSearchServices sharedServices] setApiKey:[[MSSdkConfig globalConfig] amapAPIKey]];
+    [[AMapSearchServices sharedServices] setApiKey:[[MSConfig globalConfig] getMapKey]];
     self.searchApi = [[AMapSearchAPI alloc] init];
     [self.searchApi setDelegate:self];
     self.nearbyPOISearchCallback = nil;
