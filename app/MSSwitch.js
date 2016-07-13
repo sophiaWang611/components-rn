@@ -12,11 +12,11 @@ var {
     Text,
     Platform,
     Switch,
-    requireNativeComponent
+    requireNativeComponent,
+    NativeMethodsMixin
     } = require('react-native');
 
 if (Platform.OS === 'android') {
-    var NativeMethodsMixin = require('NativeMethodsMixin');
     var MSSwitchView = requireNativeComponent('MSSwitchView', null);
 
     module.exports = React.createClass({

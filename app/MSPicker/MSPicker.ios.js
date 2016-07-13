@@ -21,17 +21,21 @@
  */
 'use strict';
 
-var NativeMethodsMixin = require('NativeMethodsMixin');
+var {
+    NativeMethodsMixin,
+    Animated,
+    PixelRatio,
+    Text,
+    View,
+    StyleSheet,
+    TouchableWithoutFeedback,
+    NativeModules,
+    ReactNativeViewAttributes
+    } = require('react-native');
+
 var React = require('React');
 var ReactChildren = require('ReactChildren');
-var ReactNativeViewAttributes = require('ReactNativeViewAttributes');
-var RCTPickerIOSConsts = require('NativeModules').UIManager.MSPicker.Constants;
-var StyleSheet = require('StyleSheet');
-var View = require('View');
-var Text = require('Text');
-var TouchableWithoutFeedback = require('TouchableWithoutFeedback');
-var PixelRatio = require('PixelRatio');
-var Animated = require('Animated');
+var RCTPickerIOSConsts = NativeModules.UIManager.MSPicker.Constants;
 var {CommonStyle} = require("../theme/index");
 
 var requireNativeComponent = require('requireNativeComponent');

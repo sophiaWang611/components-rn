@@ -13,14 +13,17 @@
  */
 'use strict';
 
-var NativeMethodsMixin = require('NativeMethodsMixin');
-var PropTypes = require('ReactPropTypes');
-var React = require('React');
-var RCTDatePickerIOSConsts = require('UIManager').RCTDatePicker.Constants;
-var StyleSheet = require('StyleSheet');
-var View = require('View');
+var {
+    NativeMethodsMixin,
+    UIManager,
+    StyleSheet,
+    View,
+    requireNativeComponent
+    } = require('react-native');
 
-var requireNativeComponent = require('requireNativeComponent');
+var React = require('React');
+var RCTDatePickerIOSConsts = UIManager.RCTDatePicker.Constants;
+
 
 type DefaultProps = {
     mode: 'date' | 'time' | 'datetime';
@@ -46,7 +49,7 @@ var MSDatePickerIOS = React.createClass({
     /**
      * The currently selected date.
      */
-        date: PropTypes.instanceOf(Date).isRequired,
+        date: React.PropTypes.instanceOf(Date).isRequired,
 
     /**
      * Date change handler.
@@ -55,31 +58,31 @@ var MSDatePickerIOS = React.createClass({
      * The first and only argument is a Date object representing the new
      * date and time.
      */
-        onChange: PropTypes.func.isRequired,
+        onChange: React.PropTypes.func.isRequired,
 
     /**
      * Maximum date.
      *
      * Restricts the range of possible date/time values.
      */
-        maximumDate: PropTypes.instanceOf(Date),
+        maximumDate: React.PropTypes.instanceOf(Date),
 
     /**
      * Minimum date.
      *
      * Restricts the range of possible date/time values.
      */
-        minimumDate: PropTypes.instanceOf(Date),
+        minimumDate: React.PropTypes.instanceOf(Date),
 
     /**
      * The date picker mode.
      */
-        mode: PropTypes.oneOf(['date', 'time', 'datetime']),
+        mode: React.PropTypes.oneOf(['date', 'time', 'datetime']),
 
     /**
      * The interval at which minutes can be selected.
      */
-        minuteInterval: PropTypes.oneOf([1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30]),
+        minuteInterval: React.PropTypes.oneOf([1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30]),
 
     /**
      * Timezone offset in minutes.
@@ -88,7 +91,7 @@ var MSDatePickerIOS = React.createClass({
      * parameter, it is possible to force a certain timezone offset. For
      * instance, to show times in Pacific Standard Time, pass -7 * 60.
      */
-        timeZoneOffsetInMinutes: PropTypes.number,
+        timeZoneOffsetInMinutes: React.PropTypes.number,
 },
 
 getDefaultProps: function(): DefaultProps {
