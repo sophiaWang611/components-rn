@@ -7,15 +7,15 @@ var {
     requireNativeComponent,
     UIManager,
     EdgeInsetsPropType,
-    ReactNativeViewAttributes
+    ReactNativeViewAttributes,
+    deprecatedPropType,
+    resolveAssetSource
     } = require('react-native');
 
 var React = require('react');
 
-var deprecatedPropType = require('deprecatedPropType');
 var keyMirror = require('fbjs/lib/keyMirror');
 var merge = require('merge');
-var resolveAssetSource = require('resolveAssetSource');
 
 var PropTypes = React.PropTypes;
 
