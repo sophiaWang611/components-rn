@@ -33,7 +33,7 @@ var {
     ReactNativeViewAttributes
     } = require('react-native');
 
-var React = require('React');
+var React = require('react');
 var ReactChildren = require('ReactChildren');
 var RCTPickerIOSConsts = NativeModules.UIManager.MSPicker.Constants;
 var {CommonStyle} = require("../theme/index");

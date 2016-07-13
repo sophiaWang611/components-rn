@@ -13,6 +13,7 @@
  */
 'use strict';
 
+var React = require('react');
 var {
     NativeMethodsMixin,
     UIManager,
@@ -21,7 +22,6 @@ var {
     requireNativeComponent
     } = require('react-native');
 
-var React = require('React');
 var RCTDatePickerIOSConsts = UIManager.RCTDatePicker.Constants;
 
 

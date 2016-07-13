@@ -11,14 +11,15 @@
  */
 'use strict';
 
-var Image = require('Image');
-var NativeMethodsMixin = require('NativeMethodsMixin');
-var PropTypes = require('ReactPropTypes');
-var React = require('React');
-var StyleSheet = require('StyleSheet');
-var View = require('View');
+var {
+    Image,
+    NativeMethodsMixin,
+    StyleSheet,
+    View,
+    requireNativeComponent
+    } = require('react-native');
 
-var requireNativeComponent = require('requireNativeComponent');
+var React = require('react');
 
 type Event = Object;
 
@@ -41,42 +42,42 @@ var MSSliderIOS = React.createClass({
          * *This is not a controlled component*, e.g. if you don't update
          * the value, the component won't be reset to its initial value.
          */
-        value: PropTypes.number,
+        value: React.PropTypes.number,
 
         /**
          * Step value of the slider. The value should be
          * between 0 and (maximumValue - minimumValue).
          * Default value is 0.
          */
-        step: PropTypes.number,
+        step: React.PropTypes.number,
 
         /**
          * Initial minimum value of the slider. Default value is 0.
          */
-        minimumValue: PropTypes.number,
+        minimumValue: React.PropTypes.number,
 
         /**
          * Initial maximum value of the slider. Default value is 1.
          */
-        maximumValue: PropTypes.number,
+        maximumValue: React.PropTypes.number,
 
         /**
          * The color used for the track to the left of the button. Overrides the
          * default blue gradient image.
          */
-        minimumTrackTintColor: PropTypes.string,
+        minimumTrackTintColor: React.PropTypes.string,
 
         /**
          * The color used for the track to the right of the button. Overrides the
          * default blue gradient image.
          */
-        maximumTrackTintColor: PropTypes.string,
+        maximumTrackTintColor: React.PropTypes.string,
 
         /**
          * If true the user won't be able to move the slider.
          * Default value is false.
          */
-        disabled: PropTypes.bool,
+        disabled: React.PropTypes.bool,
 
         /**
          * Assigns a single image for the track. Only static images are supported.
@@ -104,15 +105,15 @@ var MSSliderIOS = React.createClass({
         /**
          * Callback continuously called while the user is dragging the slider.
          */
-        onValueChange: PropTypes.func,
+        onValueChange: React.PropTypes.func,
 
         /**
          * Callback called when the user finishes changing the value (e.g. when
          * the slider is released).
          */
-        onSlidingComplete: PropTypes.func,
+        onSlidingComplete: React.PropTypes.func,
 
-        minValue: PropTypes.number,
+        minValue: React.PropTypes.number,
     },
 
     getDefaultProps: function() : any {

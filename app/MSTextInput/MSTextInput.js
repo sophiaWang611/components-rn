@@ -9,21 +9,23 @@
  */
 'use strict';
 
-var DocumentSelectionState = require('DocumentSelectionState');
-var EventEmitter = require('EventEmitter');
-var NativeMethodsMixin = require('NativeMethodsMixin');
-var Platform = require('Platform');
-var PropTypes = require('ReactPropTypes');
-var React = require('React');
+var React = require('react');
 var ReactChildren = require('ReactChildren');
-var StyleSheet = require('StyleSheet');
-var Text = require('Text');
-var TextInputState = require('TextInputState');
 var TimerMixin = require('react-timer-mixin');
-var TouchableWithoutFeedback = require('TouchableWithoutFeedback');
-var UIManager = require('UIManager');
-var View = require('View');
-var {DeviceEventEmitter} = require('react-native');
+
+var {
+    DeviceEventEmitter,
+    DocumentSelectionState,
+    EventEmitter,
+    NativeMethodsMixin,
+    Platform,
+    StyleSheet,
+    Text,
+    TextInputState,
+    TouchableWithoutFeedback,
+    UIManager,
+    View
+    } = require('react-native');
 
 var createReactNativeComponentClass = require('createReactNativeComponentClass');
 var emptyFunction = require('fbjs/lib/emptyFunction');
@@ -85,7 +87,7 @@ var MSTextInput = React.createClass({
      * - sentences: first letter of each sentence (default)
      * - none: don't auto capitalize anything
      */
-    autoCapitalize: PropTypes.oneOf([
+    autoCapitalize: React.PropTypes.oneOf([
       'none',
       'sentences',
       'words',
@@ -94,16 +96,16 @@ var MSTextInput = React.createClass({
     /**
      * If false, disables auto-correct. The default value is true.
      */
-    autoCorrect: PropTypes.bool,
+    autoCorrect: React.PropTypes.bool,
     /**
      * If true, focuses the input on componentDidMount.
      * The default value is false.
      */
-    autoFocus: PropTypes.bool,
+    autoFocus: React.PropTypes.bool,
     /**
      * If false, text is not editable. The default value is true.
      */
-    editable: PropTypes.bool,
+    editable: React.PropTypes.bool,
     /**
      * Determines which keyboard to open, e.g.`numeric`.
      *
@@ -112,7 +114,7 @@ var MSTextInput = React.createClass({
      * - numeric
      * - email-address
      */
-    keyboardType: PropTypes.oneOf([
+    keyboardType: React.PropTypes.oneOf([
       // Cross-platform
       'default',
       'email-address',
@@ -132,7 +134,7 @@ var MSTextInput = React.createClass({
      * Determines the color of the keyboard.
      * @platform ios
      */
-    keyboardAppearance: PropTypes.oneOf([
+    keyboardAppearance: React.PropTypes.oneOf([
       'default',
       'light',
       'dark',
@@ -141,7 +143,7 @@ var MSTextInput = React.createClass({
      * Determines how the return key should look.
      * @platform ios
      */
-    returnKeyType: PropTypes.oneOf([
+    returnKeyType: React.PropTypes.oneOf([
       'default',
       'go',
       'google',
@@ -158,84 +160,84 @@ var MSTextInput = React.createClass({
      * Limits the maximum number of characters that can be entered. Use this
      * instead of implementing the logic in JS to avoid flicker.
      */
-    maxLength: PropTypes.number,
+    maxLength: React.PropTypes.number,
     /**
      * Sets the number of lines for a TextInput. Use it with multiline set to
      * true to be able to fill the lines.
      * @platform android
      */
-    numberOfLines: PropTypes.number,
+    numberOfLines: React.PropTypes.number,
     /**
      * If true, the keyboard disables the return key when there is no text and
      * automatically enables it when there is text. The default value is false.
      * @platform ios
      */
-    enablesReturnKeyAutomatically: PropTypes.bool,
+    enablesReturnKeyAutomatically: React.PropTypes.bool,
     /**
      * If true, the text input can be multiple lines.
      * The default value is false.
      */
-    multiline: PropTypes.bool,
+    multiline: React.PropTypes.bool,
     /**
      * Callback that is called when the text input is blurred
      */
-    onBlur: PropTypes.func,
+    onBlur: React.PropTypes.func,
     /**
      * Callback that is called when the text input is focused
      */
-    onFocus: PropTypes.func,
+    onFocus: React.PropTypes.func,
     /**
      * Callback that is called when the text input's text changes.
      */
-    onChange: PropTypes.func,
+    onChange: React.PropTypes.func,
     /**
      * Callback that is called when the text input's text changes.
      * Changed text is passed as an argument to the callback handler.
      */
-    onChangeText: PropTypes.func,
+    onChangeText: React.PropTypes.func,
     /**
      * Callback that is called when text input ends.
      */
-    onEndEditing: PropTypes.func,
+    onEndEditing: React.PropTypes.func,
     /**
      * Callback that is called when the text input selection is changed
      */
-    onSelectionChange: PropTypes.func,
+    onSelectionChange: React.PropTypes.func,
     /**
      * Callback that is called when the text input's submit button is pressed.
      * Invalid if multiline={true} is specified.
      */
-    onSubmitEditing: PropTypes.func,
+    onSubmitEditing: React.PropTypes.func,
     /**
      * Callback that is called when a key is pressed.
      * Pressed key value is passed as an argument to the callback handler.
      * Fires before onChange callbacks.
      * @platform ios
      */
-    onKeyPress: PropTypes.func,
+    onKeyPress: React.PropTypes.func,
     /**
      * Invoked on mount and layout changes with `{x, y, width, height}`.
      */
-    onLayout: PropTypes.func,
+    onLayout: React.PropTypes.func,
     /**
      * The string that will be rendered before text input has been entered
      */
-    placeholder: PropTypes.string,
+    placeholder: React.PropTypes.string,
     /**
      * The text color of the placeholder string
      */
-    placeholderTextColor: PropTypes.string,
+    placeholderTextColor: React.PropTypes.string,
     /**
      * If true, the text input obscures the text entered so that sensitive text
      * like passwords stay secure. The default value is false.
      */
-    secureTextEntry: PropTypes.bool,
+    secureTextEntry: React.PropTypes.bool,
     /**
      * See DocumentSelectionState.js, some state that is responsible for
      * maintaining selection information for a document
      * @platform ios
      */
-    selectionState: PropTypes.instanceOf(DocumentSelectionState),
+    selectionState: React.PropTypes.instanceOf(DocumentSelectionState),
     /**
      * The value to show for the text input. TextInput is a controlled
      * component, which means the native value will be forced to match this
@@ -245,18 +247,18 @@ var MSTextInput = React.createClass({
      * either set `editable={false}`, or set/update `maxLength` to prevent
      * unwanted edits without flicker.
      */
-    value: PropTypes.string,
+    value: React.PropTypes.string,
     /**
      * Provides an initial value that will change when the user starts typing.
      * Useful for simple use-cases where you don't want to deal with listening
      * to events and updating the value prop to keep the controlled state in sync.
      */
-    defaultValue: PropTypes.string,
+    defaultValue: React.PropTypes.string,
     /**
      * When the clear button should appear on the right side of the text view
      * @platform ios
      */
-    clearButtonMode: PropTypes.oneOf([
+    clearButtonMode: React.PropTypes.oneOf([
       'never',
       'while-editing',
       'unless-editing',
@@ -266,12 +268,12 @@ var MSTextInput = React.createClass({
      * If true, clears the text field automatically when editing begins
      * @platform ios
      */
-    clearTextOnFocus: PropTypes.bool,
+    clearTextOnFocus: React.PropTypes.bool,
     /**
      * If true, all text will automatically be selected on focus
      * @platform ios
      */
-    selectTextOnFocus: PropTypes.bool,
+    selectTextOnFocus: React.PropTypes.bool,
     /**
      * If true, the text field will blur when submitted.
      * The default value is true for single-line fields and false for
@@ -280,7 +282,7 @@ var MSTextInput = React.createClass({
      * onSubmitEditing event instead of inserting a newline into the field.
      * @platform ios
      */
-    blurOnSubmit: PropTypes.bool,
+    blurOnSubmit: React.PropTypes.bool,
     /**
      * Styles
      */
@@ -288,17 +290,17 @@ var MSTextInput = React.createClass({
     /**
      * Used to locate this view in end-to-end tests
      */
-    testID: PropTypes.string,
+    testID: React.PropTypes.string,
     /**
      * The color of the textInput underline.
      * @platform android
      */
-    underlineColorAndroid: PropTypes.string,
+    underlineColorAndroid: React.PropTypes.string,
 
     /**
      * "numberDecimal": for decimal
      */
-    inputType: PropTypes.string
+    inputType: React.PropTypes.string
   },
 
   /**

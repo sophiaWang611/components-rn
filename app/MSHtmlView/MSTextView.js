@@ -1,19 +1,17 @@
 'use strict';
 
+var React = require('react');
 var {
     NativeMethodsMixin,
     ReactNativeViewAttributes,
     Platform,
-    Touchable
+    Touchable,
+    ReactInstanceMap,
+    StyleSheetPropType,
+    TextStylePropTypes,
+    createReactNativeComponentClass
     } = require('react-native');
 
-const React = require('React');
-const ReactInstanceMap = require('ReactInstanceMap');
-const StyleSheetPropType = require('StyleSheetPropType');
-const TextStylePropTypes = require('TextStylePropTypes');
-
-const createReactNativeComponentClass =
-    require('createReactNativeComponentClass');
 const merge = require('merge');
 
 const stylePropType = StyleSheetPropType(TextStylePropTypes);

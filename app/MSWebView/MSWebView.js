@@ -1,16 +1,20 @@
 'use strict';
 
-var EdgeInsetsPropType = require('EdgeInsetsPropType');
-var React = require('React');
-var ReactNativeViewAttributes = require('ReactNativeViewAttributes');
-var StyleSheet = require('StyleSheet');
-var UIManager = require('UIManager');
-var View = require('View');
+
+var {
+    StyleSheet,
+    View,
+    requireNativeComponent,
+    UIManager,
+    EdgeInsetsPropType,
+    ReactNativeViewAttributes
+    } = require('react-native');
+
+var React = require('react');
 
 var deprecatedPropType = require('deprecatedPropType');
 var keyMirror = require('fbjs/lib/keyMirror');
 var merge = require('merge');
-var requireNativeComponent = require('requireNativeComponent');
 var resolveAssetSource = require('resolveAssetSource');
 
 var PropTypes = React.PropTypes;
