@@ -21,7 +21,7 @@
 		EC6575951D36335A00D4BDDF /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575521D36335A00D4BDDF /* UIImage+Alpha.m */; };
 		EC6575961D36335A00D4BDDF /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575541D36335A00D4BDDF /* UIImage+Resize.m */; };
 		EC6575971D36335A00D4BDDF /* UIImage+RoundedCorne.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575561D36335A00D4BDDF /* UIImage+RoundedCorne.m */; };
-		EC6575981D36335A00D4BDDF /* MSLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575591D36335A00D4BDDF /* MSLocationService.m */; };
+		EC6575981D36335A00D4BDDF /* MSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575591D36335A00D4BDDF /* MSLocationManager.m */; };
 		EC6575991D36335A00D4BDDF /* MSAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65755C1D36335A00D4BDDF /* MSAddress.m */; };
 		EC65759A1D36335A00D4BDDF /* MSAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65755E1D36335A00D4BDDF /* MSAdjustViewController.m */; };
 		EC65759B1D36335A00D4BDDF /* MSCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575611D36335A00D4BDDF /* MSCustomAnnotationView.m */; };
@@ -99,8 +99,8 @@
 		EC6575541D36335A00D4BDDF /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		EC6575551D36335A00D4BDDF /* UIImage+RoundedCorne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorne.h"; sourceTree = "<group>"; };
 		EC6575561D36335A00D4BDDF /* UIImage+RoundedCorne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorne.m"; sourceTree = "<group>"; };
-		EC6575581D36335A00D4BDDF /* MSLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLocationService.h; sourceTree = "<group>"; };
-		EC6575591D36335A00D4BDDF /* MSLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLocationService.m; sourceTree = "<group>"; };
+		EC6575581D36335A00D4BDDF /* MSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLocationManager.h; sourceTree = "<group>"; };
+		EC6575591D36335A00D4BDDF /* MSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLocationManager.m; sourceTree = "<group>"; };
 		EC65755B1D36335A00D4BDDF /* MSAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAddress.h; sourceTree = "<group>"; };
 		EC65755C1D36335A00D4BDDF /* MSAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAddress.m; sourceTree = "<group>"; };
 		EC65755D1D36335A00D4BDDF /* MSAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAdjustViewController.h; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 				EC6575441D36335A00D4BDDF /* MSConfig.m */,
 				EC6575451D36335A00D4BDDF /* MSHtmlTxt */,
 				EC65754A1D36335A00D4BDDF /* MSImageEditor */,
-				EC6575571D36335A00D4BDDF /* MSLocationService */,
+				EC6575571D36335A00D4BDDF /* MSLocationManager */,
 				EC65755A1D36335A00D4BDDF /* MSMapView */,
 				EC65756C1D36335A00D4BDDF /* MSMaskInput */,
 				EC6575711D36335A00D4BDDF /* MSOverlay */,
@@ -273,12 +273,13 @@
 			path = MSImageEditor;
 			sourceTree = "<group>";
 		};
-		EC6575571D36335A00D4BDDF /* MSLocationService */ = {
+		EC6575571D36335A00D4BDDF /* MSLocationManager */ = {
 			isa = PBXGroup;
 			children = (
-				EC6575581D36335A00D4BDDF /* MSLocationService.h */,
-				EC6575591D36335A00D4BDDF /* MSLocationService.m */,
+				EC6575581D36335A00D4BDDF /* MSLocationManager.h */,
+				EC6575591D36335A00D4BDDF /* MSLocationManager.m */,
 			);
+			name = MSLocationManager;
 			path = MSLocationService;
 			sourceTree = "<group>";
 		};
@@ -453,7 +454,7 @@
 				EC6575A81D36335A00D4BDDF /* MSPickerManager.m in Sources */,
 				EC6575A31D36335A00D4BDDF /* MSOverlay.m in Sources */,
 				EC6575A91D36335A00D4BDDF /* MSSilder.m in Sources */,
-				EC6575981D36335A00D4BDDF /* MSLocationService.m in Sources */,
+				EC6575981D36335A00D4BDDF /* MSLocationManager.m in Sources */,
 				EC65758F1D36335A00D4BDDF /* MSConfig.m in Sources */,
 				EC6575911D36335A00D4BDDF /* MSHtmlTxtView.m in Sources */,
 				EC65759A1D36335A00D4BDDF /* MSAdjustViewController.m in Sources */,

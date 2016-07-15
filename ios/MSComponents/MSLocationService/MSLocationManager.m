@@ -1,12 +1,12 @@
 //
-//  MSLocationService.m
+//  MSLocationManager.m
 //  MishiBuyer
 //
 //  Created by mars.tsang on 15/11/18.
 //  Copyright © 2015年 Mishi Technology. All rights reserved.
 //
 
-#import "MSLocationService.h"
+#import "MSLocationManager.h"
 
 #import <CoreLocation/CLLocation.h>
 #import <AMapLocationKit/AMapLocationkit.h>
@@ -15,7 +15,7 @@
 
 //static NSString *AMAP_API_KEY = @"777f3f64a01b65c929664347c337fd6b";
 
-@interface MSLocationService()
+@interface MSLocationManager()
 
 @property (nonatomic,strong) AMapLocationManager *locationManager;
 @property (nonatomic,strong) NSString *city;
@@ -38,13 +38,13 @@
 @end
 
 
-@implementation MSLocationService
+@implementation MSLocationManager
 
-+ (MSLocationService *)locationService {
-  static MSLocationService *sharedInstance;
++ (MSLocationManager *)locationService {
+  static MSLocationManager *sharedInstance;
   static dispatch_once_t token;
   dispatch_once(&token,^{
-    sharedInstance = [[MSLocationService alloc] init];
+    sharedInstance = [[MSLocationManager alloc] init];
     
   });
   return sharedInstance;

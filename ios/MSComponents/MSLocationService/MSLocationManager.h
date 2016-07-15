@@ -1,5 +1,5 @@
 //
-//  MSLocationService.h
+//  MSLocationManager.h
 //  MishiBuyer
 //
 //  Created by mars.tsang on 15/11/18.
@@ -11,7 +11,7 @@
 #import "RCTBridgeModule.h"
 
 
-@interface MSLocationService : NSObject <RCTBridgeModule>
+@interface MSLocationManager : NSObject <RCTBridgeModule>
 
 @property (nonatomic,strong) CLLocation *userLocation;
 
@@ -19,6 +19,6 @@
 
 - (void)startLocate;
 - (void)waitingForLocationDone;
-+ (MSLocationService *)locationService;
++ (MSLocationManager *)locationService;
 
 @end
