@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CABBA6D5DAA27C2B1F0D33D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B7A6FC8F8E4D136CDCE350 /* libPods.a */; };
 		EC65758A1D36335A00D4BDDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575361D36335A00D4BDDF /* AppDelegate.m */; };
 		EC65758B1D36335A00D4BDDF /* MSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65753B1D36335A00D4BDDF /* MSColor.m */; };
 		EC65758C1D36335A00D4BDDF /* MSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65753D1D36335A00D4BDDF /* MSFont.m */; };
@@ -43,9 +42,6 @@
 		EC6575AA1D36335A00D4BDDF /* MSSliderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575841D36335A00D4BDDF /* MSSliderManager.m */; };
 		EC6575AB1D36335A00D4BDDF /* MSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575871D36335A00D4BDDF /* MSTableView.m */; };
 		EC6575AC1D36335A00D4BDDF /* MSTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575891D36335A00D4BDDF /* MSTableViewManager.m */; };
-		EC6575B01D36339F00D4BDDF /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6575AD1D36339F00D4BDDF /* AMapLocationKit.framework */; };
-		EC6575B11D36339F00D4BDDF /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6575AE1D36339F00D4BDDF /* AMapSearchKit.framework */; };
-		EC6575B21D36339F00D4BDDF /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6575AF1D36339F00D4BDDF /* MAMapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,9 +67,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C40C3A1868F3D3CA4D62A79F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		D7C51A328B313E7CC25742F2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E0B7A6FC8F8E4D136CDCE350 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC41E1FC1D3635A900940AF5 /* RNTableView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNTableView.xcodeproj; path = "../node_modules/react-native-tableview/RNTableView.xcodeproj"; sourceTree = "<group>"; };
 		EC6575281D3632FC00D4BDDF /* libMSComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSComponents.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6575341D36332500D4BDDF /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
@@ -149,11 +142,6 @@
 		EC6575871D36335A00D4BDDF /* MSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTableView.m; sourceTree = "<group>"; };
 		EC6575881D36335A00D4BDDF /* MSTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTableViewManager.h; sourceTree = "<group>"; };
 		EC6575891D36335A00D4BDDF /* MSTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTableViewManager.m; sourceTree = "<group>"; };
-		EC6575AD1D36339F00D4BDDF /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
-		EC6575AE1D36339F00D4BDDF /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
-		EC6575AF1D36339F00D4BDDF /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
-		EC6575B41D3633E600D4BDDF /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
-		EC6575B61D3633ED00D4BDDF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,25 +149,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6575B01D36339F00D4BDDF /* AMapLocationKit.framework in Frameworks */,
-				EC6575B11D36339F00D4BDDF /* AMapSearchKit.framework in Frameworks */,
-				EC6575B21D36339F00D4BDDF /* MAMapKit.framework in Frameworks */,
-				CABBA6D5DAA27C2B1F0D33D8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5982DB50A0FBA939E3CD6B2E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D7C51A328B313E7CC25742F2 /* Pods.debug.xcconfig */,
-				C40C3A1868F3D3CA4D62A79F /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		EC41E1FB1D36359600940AF5 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,8 +178,6 @@
 				EC65752A1D3632FC00D4BDDF /* MSComponents */,
 				EC6575291D3632FC00D4BDDF /* Products */,
 				EC41E1FB1D36359600940AF5 /* Libraries */,
-				EC6575B31D3633AD00D4BDDF /* Frameworks */,
-				5982DB50A0FBA939E3CD6B2E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -399,19 +372,6 @@
 			path = MSTableView;
 			sourceTree = "<group>";
 		};
-		EC6575B31D3633AD00D4BDDF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EC6575B61D3633ED00D4BDDF /* libz.tbd */,
-				EC6575B41D3633E600D4BDDF /* libstdc++.6.0.9.tbd */,
-				EC6575AD1D36339F00D4BDDF /* AMapLocationKit.framework */,
-				EC6575AE1D36339F00D4BDDF /* AMapSearchKit.framework */,
-				EC6575AF1D36339F00D4BDDF /* MAMapKit.framework */,
-				E0B7A6FC8F8E4D136CDCE350 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -419,11 +379,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC6575311D3632FC00D4BDDF /* Build configuration list for PBXNativeTarget "MSComponents" */;
 			buildPhases = (
-				B621DF7BB22BF97F193BD3BD /* Check Pods Manifest.lock */,
 				EC6575241D3632FC00D4BDDF /* Sources */,
 				EC6575251D3632FC00D4BDDF /* Frameworks */,
 				EC6575261D3632FC00D4BDDF /* CopyFiles */,
-				FDCFA2C18C14E2F09CE6D4B2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -480,39 +438,6 @@
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B621DF7BB22BF97F193BD3BD /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FDCFA2C18C14E2F09CE6D4B2 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC6575241D3632FC00D4BDDF /* Sources */ = {
@@ -644,18 +569,26 @@
 		};
 		EC6575321D3632FC00D4BDDF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7C51A328B313E7CC25742F2 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/Masonry\"/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/**",
 					"$(SRCROOT)/../node_modules/react-native-tableview/**",
+					"$(SRCROOT)/../../react-native-tableview/**",
+					"$(SRCROOT)/../../../ios/Pods/**",
+					"$(SRCROOT)/../../react-native/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -665,18 +598,26 @@
 		};
 		EC6575331D3632FC00D4BDDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C40C3A1868F3D3CA4D62A79F /* Pods.release.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/Masonry\"/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/**",
 					"$(SRCROOT)/../node_modules/react-native-tableview/**",
+					"$(SRCROOT)/../../react-native-tableview/**",
+					"$(SRCROOT)/../../../ios/Pods/**",
+					"$(SRCROOT)/../../react-native/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
