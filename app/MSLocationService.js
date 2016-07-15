@@ -6,7 +6,7 @@
 
 var React = require('react-native');
 
-var LocationService = React.NativeModules.MSLocationService;
+var LocationService = React.NativeModules.MSLocationManager;
 
 var MSLocationService = {
     userCity: function(cb) {

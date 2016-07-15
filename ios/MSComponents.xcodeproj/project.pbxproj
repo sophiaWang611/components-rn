@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC65758A1D36335A00D4BDDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575361D36335A00D4BDDF /* AppDelegate.m */; };
 		EC65758B1D36335A00D4BDDF /* MSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65753B1D36335A00D4BDDF /* MSColor.m */; };
 		EC65758C1D36335A00D4BDDF /* MSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65753D1D36335A00D4BDDF /* MSFont.m */; };
 		EC65758D1D36335A00D4BDDF /* MSCircleTextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575401D36335A00D4BDDF /* MSCircleTextManager.m */; };
@@ -70,8 +69,6 @@
 		EC41E1FC1D3635A900940AF5 /* RNTableView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNTableView.xcodeproj; path = "../node_modules/react-native-tableview/RNTableView.xcodeproj"; sourceTree = "<group>"; };
 		EC6575281D3632FC00D4BDDF /* libMSComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSComponents.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6575341D36332500D4BDDF /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
-		EC6575351D36335A00D4BDDF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EC6575361D36335A00D4BDDF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EC6575381D36335A00D4BDDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC65753A1D36335A00D4BDDF /* MSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSColor.h; sourceTree = "<group>"; };
 		EC65753B1D36335A00D4BDDF /* MSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSColor.m; sourceTree = "<group>"; };
@@ -192,8 +189,6 @@
 		EC65752A1D3632FC00D4BDDF /* MSComponents */ = {
 			isa = PBXGroup;
 			children = (
-				EC6575351D36335A00D4BDDF /* AppDelegate.h */,
-				EC6575361D36335A00D4BDDF /* AppDelegate.m */,
 				EC6575371D36335A00D4BDDF /* Base.lproj */,
 				EC6575381D36335A00D4BDDF /* Images.xcassets */,
 				EC6575391D36335A00D4BDDF /* MSBase */,
@@ -445,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC65758A1D36335A00D4BDDF /* AppDelegate.m in Sources */,
 				EC6575921D36335A00D4BDDF /* RNImageCrop.m in Sources */,
 				EC6575A61D36335A00D4BDDF /* UIImagePickerManager.m in Sources */,
 				EC65759D1D36335A00D4BDDF /* MSMapController.m in Sources */,
