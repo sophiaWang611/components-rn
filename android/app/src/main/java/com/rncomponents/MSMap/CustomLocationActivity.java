@@ -201,19 +201,12 @@ public class CustomLocationActivity extends MSBaseActivity implements View.OnCli
     @Override
     public void onClick(View v) {
         final int id = v.getId();
-        switch (id) {
-            case R.id.actionbar_btn_back:
-                finish();
-                break;
-            case R.id.actionbar_right_text_btn:
-                onClickFinish();
-                break;
-            case R.id.target_position:
-            case R.id.map_position_icon:
-                location(keyWords, mCity);
-                break;
-            default:
-                break;
+        if (id == R.id.actionbar_btn_back) {
+            finish();
+        } else if (id == R.id.actionbar_right_text_btn) {
+            onClickFinish();
+        } else if (id == R.id.target_position || id == R.id.map_position_icon) {
+            location(keyWords, mCity);
         }
     }
 

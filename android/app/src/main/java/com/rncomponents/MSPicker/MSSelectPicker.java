@@ -94,16 +94,12 @@ public class MSSelectPicker extends MSBaseActivity implements View.OnClickListen
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.tv_close:
-                setResult(RESULT_CANCELED, new Intent());
-                finish();
-                break;
-            case R.id.tv_done:
-                done();
-                break;
-            default:
-                break;
+        int id = v.getId();
+        if (id == R.id.tv_close) {
+            setResult(RESULT_CANCELED, new Intent());
+            finish();
+        } else if (id == R.id.tv_done) {
+            done();
         }
     }
 

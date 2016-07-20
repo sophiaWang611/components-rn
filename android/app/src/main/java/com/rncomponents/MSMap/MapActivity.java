@@ -126,24 +126,14 @@ public class MapActivity extends MSBaseActivity implements LocationSource, OnMap
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-
-            case R.id.map_back:
-                finish();
-                break;
-            case R.id.map_other_map:
-                displayOptions();
-                break;
-            case R.id.map_position:
-                if (positionLatlng != null) {// 小蓝点 显示在中心位置
-                    aMap.moveCamera(CameraUpdateFactory.changeLatLng(positionLatlng));
-                }
-                break;
-
-            default:
-                break;
+        int id = v.getId();
+        if (id == R.id.map_back) {
+            finish();
+        } else if (id == R.id.map_other_map) {
+            displayOptions();
+        } else if (id == R.id.map_position && positionLatlng != null) {
+            aMap.moveCamera(CameraUpdateFactory.changeLatLng(positionLatlng));
         }
-
     }
 
     public void displayOptions() {

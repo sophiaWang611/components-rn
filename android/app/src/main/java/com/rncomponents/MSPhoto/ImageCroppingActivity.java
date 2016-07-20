@@ -27,14 +27,14 @@ public class ImageCroppingActivity extends MSBaseActivity implements View.OnClic
 
     private final static String TAG  = "ImageCroppingActivity";
 
-    @InjectView(R.id.ui_image_cropping_view)
-    ClipImageLayout imageCroppingView;
+    ClipImageLayout imageCroppingView = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_cropp);
+        imageCroppingView = (ClipImageLayout) this.findViewById(R.id.ui_image_cropping_view);
         ButterKnife.inject(this);
 
         findViewById(R.id.img_crop_bar_close).setOnClickListener(this);
@@ -70,16 +70,12 @@ public class ImageCroppingActivity extends MSBaseActivity implements View.OnClic
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.img_crop_bar_close:
-                setResult(RESULT_CANCELED, new Intent());
-                finish();
-                break;
-            case R.id.img_crop_bar_done:
-                done();
-                break;
-            default:
-                break;
+        int id = v.getId();
+        if (id == R.id.img_crop_bar_close) {
+            setResult(RESULT_CANCELED, new Intent());
+            finish();
+        } else if (id == R.id.img_crop_bar_done) {
+            done();
         }
     }
 
