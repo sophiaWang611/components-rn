@@ -11,10 +11,10 @@ import com.facebook.react.uimanager.UIManagerModule;
 import com.facebook.react.uimanager.events.Event;
 import com.facebook.react.uimanager.events.EventDispatcher;
 import com.facebook.react.uimanager.events.RCTEventEmitter;
-import com.facebook.react.views.webview.events.TopLoadingErrorEvent;
-import com.facebook.react.views.webview.events.TopLoadingFinishEvent;
-import com.facebook.react.views.webview.events.TopLoadingStartEvent;
 import com.mishi.js.WVJBWebViewClient;
+import com.rncomponents.MSWebView.events.TopLoadingErrorEvent;
+import com.rncomponents.MSWebView.events.TopLoadingFinishEvent;
+import com.rncomponents.MSWebView.events.TopLoadingStartEvent;
 
 import org.json.JSONException;
 import org.json.JSONObject;

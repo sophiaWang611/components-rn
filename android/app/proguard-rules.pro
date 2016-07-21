@@ -50,6 +50,9 @@
 
 -dontwarn com.facebook.react.**
 
+# 禁止混淆react
+-keep class com.facebook.**{*;}
+
 # okhttp
 
 -keepattributes Signature

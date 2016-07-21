@@ -9,9 +9,10 @@ var {
     StyleSheet,
     View,
     Text,
+    NativeModules
     } = require('react-native');
 
-var MSNativePicker = React.NativeModules.MSPicker;
+var MSNativePicker = NativeModules.MSPicker;
 
 var ActionSheetAndroid = {
 

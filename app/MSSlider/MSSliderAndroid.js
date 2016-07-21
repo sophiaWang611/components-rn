@@ -3,17 +3,16 @@
 var React = require('react');
 var {
     requireNativeComponent,
-    PropTypes,
     } = require('react-native');
 
 var RCTSeekBar = requireNativeComponent('RCTSeekBar', null);
 
 module.exports = React.createClass({
     propTypes: {
-        value: PropTypes.number,
-        minimumValue: PropTypes.number,
-        maximumValue: PropTypes.number,
-        onValueChange: PropTypes.func,
+        value: React.PropTypes.number,
+        minimumValue: React.PropTypes.number,
+        maximumValue: React.PropTypes.number,
+        onValueChange: React.PropTypes.func,
     },
 
     getInitialState() {

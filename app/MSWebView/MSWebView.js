@@ -8,8 +8,6 @@ var {
     UIManager,
     EdgeInsetsPropType,
     ReactNativeViewAttributes,
-    deprecatedPropType,
-    resolveAssetSource
     } = require('react-native');
 
 var React = require('react');
@@ -32,8 +30,8 @@ var WebViewState = keyMirror({
  */
 var WebView = React.createClass({
 
-    propTypes: {
-        ...View.propTypes,
+        propTypes: {
+            ...View.propTypes,
         renderError: PropTypes.func,
         renderLoading: PropTypes.func,
         onLoad: PropTypes.func,
@@ -52,16 +50,6 @@ var WebView = React.createClass({
          */
         scalesPageToFit: PropTypes.bool,
         mediaPlaybackRequiresUserAction: PropTypes.bool,
-
-        html: deprecatedPropType(
-            PropTypes.string,
-            'Use the `source` prop instead.'
-        ),
-
-        url: deprecatedPropType(
-            PropTypes.string,
-            'Use the `source` prop instead.'
-        ),
 
         /**
          * Loads static html or a uri (with optional headers) in the WebView.
@@ -199,7 +187,7 @@ var WebView = React.createClass({
             ref={RCT_WEBVIEW_REF}
             key="webViewKey"
             style={webViewStyles}
-            source={resolveAssetSource(source)}
+            source={source}
             injectedJavaScript={this.props.injectedJavaScript}
             userAgent={this.props.userAgent}
             javaScriptEnabled={javaScriptEnabled}
