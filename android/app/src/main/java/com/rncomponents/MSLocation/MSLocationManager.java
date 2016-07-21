@@ -35,7 +35,7 @@ public class MSLocationManager extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "MSLocationService";
+        return "MSLocationManager";
     }
 
     @ReactMethod
