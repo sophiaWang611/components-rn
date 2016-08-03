@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "react": "15.2.1",
-    "react-native": "^0.28.0",
+    "react-native": "^0.30.0",
     "react-tween-state": "^0.1.5",
     "react-native-tableview": "git://github.com/sophiaWang611/react-native-tableview#96af6cbc1fe79bb3745183008c863c22603f20f8",
     "react-native-toast": "git://github.com/sophiaWang611/react-native-toast#0b7a3a43b7e60e819371e524727848f056e8c351",
