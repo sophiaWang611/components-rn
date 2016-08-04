@@ -27,9 +27,7 @@ dependencies {
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
     compile 'com.jakewharton:butterknife:5.1.2'
-    compile 'com.squareup.okhttp:okhttp:2.2.0'
-    compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
-    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'com.squareup.picasso:picasso:2.5.3'
     compile files('src/main/java/libs/Android_2DMapApi_V2.4.1.jar')
     compile files('src/main/java/libs/Android_Location_V1.3.2.jar')
     compile files('src/main/java/libs/AMap_Services_V2.4.0.jar')
