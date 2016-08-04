@@ -10,9 +10,8 @@
 'use strict';
 
 var React = require('react');
-var {
-    ReactChildren
-    } = React;
+var ReactChildren = require('ReactChildren');
+
 var TimerMixin = require('react-timer-mixin');
 
 var {
@@ -548,7 +547,6 @@ _onFocus: function(event: Event) {
 
 _onPress: function(event: Event) {
     if (this.props.editable || this.props.editable === undefined) {
-        console.log("11111111", this);
         this.refs["input"].focus();
     }
 },
